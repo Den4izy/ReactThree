@@ -1,0 +1,12 @@
+.app{
+  height: 500px;
+  width: 100%;
+  background-color: aqua;
+  display: grid;
+  grid-template-areas:
+  "h h"
+  "n m"
+  "f f";
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 50px 1fr 30px;
+}
